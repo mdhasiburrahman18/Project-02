@@ -1,0 +1,289 @@
+/*================ Brackpoint Css Start ================*/
+
+/*----------====== Medem screens devicest ======----------*/
+@media screen and (max-width: 991px){
+	/*--- General css ---*/
+	body{
+		font-size: var(--size-15);
+	}
+
+	h1{
+		font-size: var(--size-65);
+	}
+
+	.buttons{
+		font-size: var(--size-18);
+		padding: 15px 25px;
+	}
+
+	/*--- Header section ---*/
+	.details-area p{
+		margin-bottom: 30px;
+	}
+
+	.details-area{
+		padding: 0 0 20px 0;
+	}
+
+	/*--- About section ---*/
+	#about-section .container{
+ 		padding: 100px 50px;
+ 	}
+
+ 	.responsive-col{
+ 		margin: 10px 0;
+ 	}
+
+ 	/*--- Blogs section ---*/
+ 	.blog-area{
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.blog-area{
+		height: auto;
+		padding: 20px;
+	}
+
+ 	/*--- Contact section ---*/
+	#contact-section .container{
+		padding: 100px 50px;
+	}
+
+	.contact-details{
+		padding-right: 30px;
+	}
+
+	.contact-form .sub-btn{
+		width: 50%;
+	}
+	
+}
+
+/*----------====== Small screens, laptops devicest ======----------*/
+@media screen and (max-width: 767px){
+	/*--- General css ---*/
+	body{
+		font-size: var(--size-15);
+	}
+
+	h1{
+		font-size: var(--size-65);
+	}
+
+	h2{
+		font-size: var(--size-35);
+	}
+
+	.tag-h2{
+		font-size: var(--size-35);
+	}
+
+	h3{
+		font-size: var(--size-25);
+	}
+
+	h4{
+		font-size: var(--size-20);
+	}
+
+	h5{
+		font-size: var(--size-18);
+
+	.tag-h5{
+		font-size: var(--size-18);
+	}
+
+	h6{
+		font-size: var(--size-16);
+	}
+
+	.buttons{
+		font-size: var(--size-18);
+		padding: 15px 25px;
+	}
+
+	/*--- Theme css ---*/
+
+	/*--- Header section ---*/
+	.navbar{
+		padding: 30px 0 50px 0!important ;
+	}
+
+	.details-area{
+		margin-bottom: 50px;
+	}
+
+	.details-area{
+		padding: 0;
+	}
+
+ 	/*--- About section ---*/
+ 	#about-section .container{
+ 		padding: 100px 15px;
+ 	}
+
+ 	.responsive-col{
+ 		margin: 10px 0;
+ 	}
+
+ 	/*--- Blogs section ---*/
+ 	.blog-area{
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.blog-area img{
+ 		margin-bottom: 30px;
+ 	}
+
+ 	/*--- Resume section ---*/
+ 	.edu-area{
+ 		margin-bottom: 50px;
+ 	}
+
+ 	.edu-area h5,
+	.exp-area h5{
+		margin-bottom: 30px;
+	}
+
+	.edu-area .tag-h5,
+	.exp-area .tag-h5{
+		margin-bottom: 10px;
+	}
+
+	/*--- Contact section ---*/
+	#contact-section .container{
+		padding: 100px 30px;
+	}
+
+	.contact-details h2,
+	.contact-form h2{
+		margin-bottom: 30px;
+	}
+
+	.contact-form .sub-btn{
+		width: 30%;
+		padding: 20px 30px;
+		font-size: var(--size-16);
+	}
+
+}
+
+/*----------====== Mobile screen devicest ======----------*/ 
+@media screen and ( max-width: 340px ){
+	/*--- General css ---*/
+	body{
+		font-size: var(--size-15);
+	}
+
+	h1{
+		font-size: var(--size-45);
+	}
+
+	h2{
+		font-size: var(--size-35);
+	}
+
+	.tag-h2{
+		font-size: var(--size-35);
+	}
+
+	h3{
+		font-size: var(--size-25);
+	}
+
+	h4{
+		font-size: var(--size-20);
+	}
+
+	h5{
+		font-size: var(--size-18);
+	}
+
+	.tag-h5{
+		font-size: var(--size-18);
+	}
+
+	h6{
+		font-size: var(--size-16);
+	}
+
+	.buttons{
+		font-size: var(--size-18);
+		padding: 15px 25px;
+	}
+
+	/*--- Theme css ---*/
+
+	/*--- Header section ---*/
+	.navbar{
+		padding: 30px 0 50px 0!important ;
+	}
+
+	.details-area{
+		margin-bottom: 50px;
+	}
+
+	.details-area{
+		padding: 0;
+	}
+
+ 	/*--- About section ---*/
+ 	#about-section .container{
+ 		padding: 100px 15px;
+ 	}
+
+ 	.responsive-col{
+ 		margin: 10px 0;
+ 	}
+
+ 	/*--- Blogs section ---*/
+ 	.blog-area{
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.blog-area img{
+ 		margin-bottom: 30px;
+ 	}
+
+ 	/*--- Resume section ---*/
+ 	.edu-area{
+ 		margin-bottom: 50px;
+ 	}
+
+ 	.edu-area h5,
+	.exp-area h5{
+		margin-bottom: 30px;
+	}
+
+	.edu-area .tag-h5,
+	.exp-area .tag-h5{
+		margin-bottom: 10px;
+	}
+
+	/*--- Contact section ---*/
+	#contact-section .container{
+		padding: 100px 10px;
+	}
+
+	.contact-details{
+		margin-bottom: 50px;
+	}
+
+	.contact-details h2,
+	.contact-form h2{
+		margin-bottom: 30px;
+	}
+
+	.contact-details{
+		padding: 0;
+	}
+
+	.contact-form .sub-btn{
+		width: 50%;
+		padding: 15px 25px;
+		font-size: var(--size-16);
+	}
+
+}
+
+/*================ Brackpoint Css End ================*/
